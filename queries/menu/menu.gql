@@ -1,0 +1,18 @@
+{
+  menuItems(where: { location: MENU_1, parentId: "0" }) {
+    edges {
+      node {
+        label
+        order
+        path
+        childItems {
+          nodes {
+            label
+            path
+            order
+          }
+        }
+      }
+    }
+  }
+}

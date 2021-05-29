@@ -1,0 +1,12 @@
+{
+  proyetos {
+    nodes {
+      title
+      informacionBasica {
+        urlDelSitio
+        descripcionDelProyecto
+      }
+      uri
+    }
+  }
+}
